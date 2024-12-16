@@ -1,0 +1,212 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+/* Navbar START */
+nav{
+    width: 100%;
+
+    background-position: top;
+    background-repeat: no-repeat;
+    background-image: url('../img/hero/hero_1.jpg');
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+
+    padding: 10px;
+
+    list-style: none;
+    align-items: center;
+
+    background-color: rgba(0, 0, 0, 0.219);
+}
+
+nav ul li a img{
+    min-width: 30px;
+    max-width: 50px;
+
+    min-height: 30px;
+    max-height: 50px;
+    background-color: white;
+    padding: 3px;
+}
+
+nav ul li a img:hover{
+    opacity: 50%;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+
+    margin: 0 5px;
+    padding: 25px 0;
+
+    text-underline-offset: 5px;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+/* Navbar END */
+
+
+
+/* Main START */
+main{
+    width: 100%;
+}
+
+main .hero{
+}
+
+main .hero ul{
+    display: flex;
+    justify-content: center;
+
+    height: 80vh;
+    background-image: url('../img/hero/hero_1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+
+    align-items: center;
+}
+
+main .hero ul .information{
+    color: white;
+    padding: 10px;
+}
+
+main .hero ul .information h2{
+    font-size: 3.8rem;
+
+    margin: 0 0 27px 0;
+    text-shadow: 2px 2px 2px black;
+}
+
+main .hero ul .information a{
+    color: black;
+    text-decoration: none;
+
+
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 4.8px;
+    background-color: #E64388;
+
+    box-shadow: 6px 2px 7px 1px black;
+
+}
+
+main .hero ul .information a:hover{
+    color: white;
+}
+
+
+
+
+.hero-bottom{
+    margin-top: -100px;
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+
+}
+
+.hero-bottom .judul h2{
+    color: white;
+    font-size: 1.9rem;
+    
+
+}
+
+.hero-bottom .flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.hero-bottom .flex li{
+    list-style: none;
+    margin: 0 5px;
+}
+
+.hero-bottom .flex li a img{
+    min-width: 250px;
+    max-width: 500px;
+
+    min-height: 100px;
+    max-height: 250px;
+
+    border-end-end-radius: 40px;
+}
+
+.hero-bottom .flex li .information{
+    min-width: 250px;
+    max-width: 400px;
+
+    min-height: 100px;
+    max-height: 250px;
+}
+
+.hero-bottom .flex li .information h3{
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.hero-bottom .flex li .information p{
+    font-size: 14px;
+    text-align: justify;
+}
+
+
+/* background-image: url('https://t3.ftcdn.net/jpg/05/05/02/14/360_F_505021438_hJ3BdC569Rgw2y6bNLla07gtjwAVCfYm.jpg');
+background-size: cover; */
+
+
+
+
+/* Main END */
+
+
+
+
+
+/* Responsive */
+@media( max-width: 1024px){
+
+}
+
+@media (max-width: 768px) and (max-width: 1024px){
+    nav ul .menu{
+        display: none;
+    }
+
+    main .hero ul .information h2{    
+        font-size: 2.8rem;
+    }
+
+
+}
+
+@media screen and (max-width: 576px){
+    nav ul .menu{
+        display: none;
+    }
+
+    main .hero ul .information h2{    
+        font-size: 2.4rem;
+    }
+
+}
+/* Responsive */
