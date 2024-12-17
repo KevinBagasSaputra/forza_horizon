@@ -170,7 +170,7 @@ background-size: cover; */
         display: none;
     }
 
-    hero ul{
+    .hero ul{
         height: 100vh;
     }
 }
@@ -180,7 +180,7 @@ background-size: cover; */
         display: none;
     }
 
-    hero ul{
+    .hero ul{
         height: 100vh;
     }
 }
