@@ -152,6 +152,54 @@ nav ul li a:last-child:hover{
 
 
 
+.hero-bottom{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.336);
+}
+
+.hero-bottom ul{
+    display: none;
+    justify-content: space-around;
+
+    height: unset;
+    flex-wrap: wrap;
+    padding: 20px;
+
+    align-items: unset;
+}
+
+.hero-bottom ul li{
+    list-style: none;
+}
+
+.hero-bottom ul .hero-bottom-judul h2{
+    color: white;
+    font-size: 2.2rem;
+}
+
+.hero-bottom ul li a img{
+    min-width: 250px;
+    max-width: 450px;
+    height: auto;
+}
+
+.hero-bottom ul li .group{
+    color: white; 
+    min-width: 250px;
+    max-width: 450px;
+}
+
+.hero-bottom ul li .group h3{
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.hero-bottom ul li .group p{
+    color: rgb(203, 203, 203);
+}
+
+
+
 /* Hero END */
 
 
@@ -173,6 +221,13 @@ background-size: cover; */
     .hero ul{
         height: 100vh;
     }
+
+    .hero-bottom ul{
+        height: auto;
+
+        display: flex;
+        justify-content: center;
+    }
 }
 
 @media (min-width: 577px) and (max-width: 1023px) {
@@ -183,6 +238,21 @@ background-size: cover; */
     .hero ul{
         height: 100vh;
     }
+
+    .hero-bottom ul{
+        height: auto;
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero-bottom ul li a img{
+        max-width: 50%;
+    }
+    .hero-bottom ul li .group{
+        max-width: 50%;
+    }
+
 }
 
 @media (min-width: 1024px) {
@@ -193,5 +263,9 @@ background-size: cover; */
     nav ul li a{
         margin: 0 10px 0 0;
     }
+
+    .hero-bottom ul{
+        display: flex;
+    }
 }
-/* Responsive */
+/* Responsive */ 
