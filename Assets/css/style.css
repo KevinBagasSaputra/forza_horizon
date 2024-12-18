@@ -18,6 +18,7 @@ header{
 nav{
     width: 100%;
     position: fixed;
+    z-index: 1;
 }
 
 nav ul{
@@ -159,7 +160,8 @@ nav ul li a:last-child:hover{
 }
 
 .hero-bottom .flex{
-    background-image: url('https://t3.ftcdn.net/jpg/05/05/02/14/360_F_505021438_hJ3BdC569Rgw2y6bNLla07gtjwAVCfYm.jpg');
+    background-image: url('../img/header/hero_bottom/hb_main.jpg');
+    /* background-image: url('https://t3.ftcdn.net/jpg/05/05/02/14/360_F_505021438_hJ3BdC569Rgw2y6bNLla07gtjwAVCfYm.jpg'); */
     background-size: cover;
     background-position: center;
 
@@ -221,6 +223,76 @@ nav ul li a:last-child:hover{
 }
 
 
+.hero-bottom .flex .satu .play-satu{
+    text-decoration: none;
+}
+.hero-bottom .flex .satu .play-satu i{
+    color: white;
+    background-image: url('../img/header/hero_bottom/hb_1.webp');
+    /* background-image:url('https://forza.azureedge.net/strapi-uploads/assets/medium_FH_Games_Com_Hide_And_Seek_Thumbnail_1920x1080_3b2197abcf.webp'); */
+    background-size: cover;
+    
+    border-bottom-right-radius: 26px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    min-width: 50%;
+    max-width: 100%;
+    
+    height: 250px;
+}
+
+
+
+.hero-bottom .flex .dua .play-dua{
+    text-decoration: none;
+}
+.hero-bottom .flex .dua .play-dua i{
+    color: white;
+    background-image: url('../img/header/hero_bottom/hb_2.webp');
+    /* background-image:url('https://forza.azureedge.net/strapi-uploads/assets/medium_FH_5_Event_Lab_2_0_Shot2_3840x2160_No_WM_b2b42b4e40.webp'); */
+    background-size: cover;
+    
+    border-bottom-right-radius: 26px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    min-width: 50%;
+    max-width: 100%;
+    
+    height: 250px;
+}
+
+
+
+.hero-bottom .flex .tiga .play-tiga{
+    text-decoration: none;
+}
+.hero-bottom .flex .tiga .play-tiga i{
+    color: white;
+    background-image: url('../img/header/hero_bottom/hb_3.jpg');
+    /* background-image:url('https://www.blackxperience.com/assets/content/blackattitude/blackstyle/12237612.jpg'); */
+    background-size: cover;
+
+    border-bottom-right-radius: 26px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    min-width: 50%;
+    max-width: 100%;
+
+    height: 250px;
+}
+
 
 /* Hero END */
 
@@ -243,6 +315,11 @@ background-size: cover; */
     .hero ul{
         height: 90vh;
         background-position: bottom;
+    }
+
+    .hero ul .wrap{
+        max-width: 250px;
+        text-align: left;
     }
 
     .hero-bottom{
@@ -270,6 +347,22 @@ background-size: cover; */
         min-width: 150px;
         max-width: 350px;
     }
+
+
+
+
+
+    .hero-bottom .flex .satu .play-satu i{
+        height: 200px;
+    }
+
+    .hero-bottom .flex .dua .play-dua i{
+        height: 200px;
+    }
+
+    .hero-bottom .flex .tiga .play-tiga i{
+        height: 200px;
+    }
 }
 
 @media (min-width: 577px) and (max-width: 1023px) {
@@ -279,6 +372,14 @@ background-size: cover; */
 
     .hero ul{
         height: 90vh;
+    }
+
+    .hero ul .wrap{
+        max-width: 500px;
+    }
+
+    .hero ul .wrap h1{
+        font-size: 3.6rem;
     }
 
     .hero-bottom .flex{
@@ -308,6 +409,17 @@ background-size: cover; */
 
 
 
+    .hero-bottom .flex .satu .play-satu i{
+        height: 200px;
+    }
+
+    .hero-bottom .flex .dua .play-dua i{
+        height: 200px;
+    }
+
+    .hero-bottom .flex .tiga .play-tiga i{
+        height: 200px;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -318,6 +430,15 @@ background-size: cover; */
     nav ul li a{
         margin: 0 10px 0 0;
     }
+
+    .hero ul .wrap{
+        max-width: 600px;
+    }
+
+    .hero ul .wrap h1{
+        font-size: 4.5rem;
+    }
+    
 
     .hero-bottom .flex{
         display: flex;
