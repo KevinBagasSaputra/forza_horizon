@@ -228,6 +228,10 @@ background-size: cover; */
         display: flex;
         justify-content: center;
     }
+
+    .hero-bottom ul li{
+        margin: 20px auto;
+    }
 }
 
 @media (min-width: 577px) and (max-width: 1023px) {
@@ -244,14 +248,14 @@ background-size: cover; */
 
         display: flex;
         justify-content: center;
+
     }
 
-    .hero-bottom ul li a img{
-        max-width: 50%;
+    .hero-bottom ul li{
+        margin: 20px auto;
     }
-    .hero-bottom ul li .group{
-        max-width: 50%;
-    }
+
+
 
 }
 
