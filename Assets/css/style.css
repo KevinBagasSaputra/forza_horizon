@@ -178,7 +178,7 @@ nav ul li a:last-child:hover{
 
 .hero-bottom .flex li{
     list-style: none;
-    background-color: rgba(255, 255, 255, 0.418);
+    /* background-color: rgba(255, 255, 255, 0.418); */
 }
 
 .hero-bottom .flex .hero-bottom-judul h2{
@@ -232,6 +232,10 @@ nav ul li a:last-child:hover{
     /* background-image:url('https://forza.azureedge.net/strapi-uploads/assets/medium_FH_Games_Com_Hide_And_Seek_Thumbnail_1920x1080_3b2197abcf.webp'); */
     background-size: cover;
     
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+
     border-bottom-right-radius: 26px;
     
     display: flex;
@@ -256,6 +260,10 @@ nav ul li a:last-child:hover{
     /* background-image:url('https://forza.azureedge.net/strapi-uploads/assets/medium_FH_5_Event_Lab_2_0_Shot2_3840x2160_No_WM_b2b42b4e40.webp'); */
     background-size: cover;
     
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+
     border-bottom-right-radius: 26px;
     
     display: flex;
@@ -279,6 +287,10 @@ nav ul li a:last-child:hover{
     background-image: url('../img/header/hero_bottom/hb_3.jpg');
     /* background-image:url('https://www.blackxperience.com/assets/content/blackattitude/blackstyle/12237612.jpg'); */
     background-size: cover;
+
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
 
     border-bottom-right-radius: 26px;
 
@@ -344,7 +356,7 @@ article{
 
 .horizon-videos .horizon-videos-judul ul li{
     list-style-type: none;
-    margin: 0 80px 0 0;
+    margin: 0 20px 0 0;
 }
 
 .horizon-videos .horizon-videos-judul ul li a{
@@ -373,7 +385,11 @@ article{
     background-color: #333333; 
 
     padding: 20px;
-    border-left: 12px solid #E43E83;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+
+
+    border-left: 10px solid #E43E83;
     border-bottom-right-radius: 26px;
 
     margin: 0 8px;
@@ -382,7 +398,7 @@ article{
 
 .horizon-videos .container ul li .group{
     min-width: 250px;
-    max-width: 450px;
+    max-width: 381px;
 }
 
 .horizon-videos .container ul li .group p{
