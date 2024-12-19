@@ -208,7 +208,8 @@ nav ul li a:last-child:hover{
 .hero-bottom .flex li .group{
     color: black; 
     min-width: 250px;
-    max-width: 450px;
+    max-width: 425px;
+    /* max-width: 450px; */
 }
 
 .hero-bottom .flex li .group h3{
@@ -318,10 +319,14 @@ background-size: cover; */
 /* Main START */
 main{
     width: 100%;
-    background-color: #D5D5D5;
+    background-image: url('../img/header/hero_bottom/hb_main.jpg');
+    background-size: cover;
+    background-position: top;
+
 }
 
 main .container{
+    background-color: #d5d5d538;
     padding: 10px;
 }
 /* Main END */
@@ -346,12 +351,13 @@ article{
     flex-wrap: wrap;
     flex-direction: row;
 
-    margin: 0 0 0 50px;
+    margin: 0 0 0 55px;
 }
 
 .horizon-videos .horizon-videos-judul h2{
     font-size: 2.2rem;
     letter-spacing: 0.6px;
+
 }
 
 .horizon-videos .horizon-videos-judul ul li{
@@ -362,7 +368,7 @@ article{
 .horizon-videos .horizon-videos-judul ul li a{
     color: rgb(68, 68, 68);
     text-decoration: none;
-    margin: 0 30px;
+    margin: 0 35px 0 0;
 }
 
 .horizon-videos .horizon-videos-judul ul li a:first-child{
@@ -382,7 +388,7 @@ article{
 
 .horizon-videos .container ul li{
     color: white;
-    background-color: #333333; 
+    background-color: #333333;
 
     padding: 20px;
     border-top-left-radius: 6px;
