@@ -368,11 +368,52 @@ article{
     justify-content: center;
 }
 
+.horizon-videos .container ul li{
+    color: white;
+    background-color: #333333; 
+
+    padding: 20px;
+    border-left: 12px solid #E43E83;
+    border-bottom-right-radius: 26px;
+
+    margin: 0 8px;
+    list-style-type: none;
+}
+
+.horizon-videos .container ul li .group{
+    min-width: 250px;
+    max-width: 450px;
+}
+
+.horizon-videos .container ul li .group p{
+    color:rgba(255, 255, 255, 0.418);
+}
+
+.horizon-videos .container ul li .group h3{
+    margin: 10px 0;
+}
+
+
 .horizon-videos .container ul li:first-child{
+}
+.horzion-videos .container ul li:first-child .group{
+    min-width: 250px;
+    max-width: 450px;
+}
+
+
+.horizon-videos .container ul li:nth-child(2){
+}
+.horizon-videos .container ul li:nth-child(2) .group{
 
 }
 
-.horizon-videos .container ul li:nth-child(2){
+.horizon-videos .container ul li:nth-child(3){
+
+}
+
+.horizon-videos .container ul li:last-child{
+
 }
 /* Horizon Videos END */
 
