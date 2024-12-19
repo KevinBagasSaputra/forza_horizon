@@ -303,6 +303,109 @@ background-size: cover; */
 
 
 
+/* Main START */
+main{
+    width: 100%;
+    background-color: #D5D5D5;
+}
+
+main .container{
+    padding: 10px;
+}
+/* Main END */
+
+
+/* Article START */
+article{
+
+}
+/* Article END */
+
+
+
+/* Horizon Videos START */
+.horizon-videos{
+    /* width: 1800px; */
+}
+
+.horizon-videos .horizon-videos-judul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    margin: 0 0 0 70px;
+}
+
+.horizon-videos .horizon-videos-judul h2{
+
+}
+
+.horizon-videos .horizon-videos-judul ul li{
+    list-style-type: none;
+    margin: 0 70px 0 0;
+}
+
+.horizon-videos .horizon-videos-judul ul li a{
+    color: rgb(68, 68, 68);
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.horizon-videos .horizon-videos-judul ul li a:first-child{
+    text-underline-offset: 7px;
+    text-decoration: underline  #E43E83;
+    text-decoration-thickness: 2px;
+}
+
+.horizon-videos .container{
+    padding: 10px;
+}
+
+.horizon-videos .container ul{
+    display: flex;
+    justify-content: center;
+}
+
+.horizon-videos .container ul li:first-child{
+
+}
+
+.horizon-videos .container ul li:nth-child(2){
+}
+/* Horizon Videos END */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
