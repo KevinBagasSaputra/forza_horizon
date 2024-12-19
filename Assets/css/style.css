@@ -334,22 +334,23 @@ article{
     flex-wrap: wrap;
     flex-direction: row;
 
-    margin: 0 0 0 70px;
+    margin: 0 0 0 50px;
 }
 
 .horizon-videos .horizon-videos-judul h2{
-
+    font-size: 2.2rem;
+    letter-spacing: 0.6px;
 }
 
 .horizon-videos .horizon-videos-judul ul li{
     list-style-type: none;
-    margin: 0 70px 0 0;
+    margin: 0 80px 0 0;
 }
 
 .horizon-videos .horizon-videos-judul ul li a{
     color: rgb(68, 68, 68);
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0 30px;
 }
 
 .horizon-videos .horizon-videos-judul ul li a:first-child{
