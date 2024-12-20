@@ -6,7 +6,7 @@
 }
 
 body{
-    font-family: Roboto;
+    font-family: Oswald;
 }
 
 h1, h2{
@@ -356,12 +356,12 @@ article{
     flex-direction: row;
 
     margin: 0 0 0 55px;
+    align-items: center;
 }
 
 .horizon-videos .horizon-videos-judul h2{
     font-size: 2.2rem;
     letter-spacing: 0.6px;
-
 }
 
 .horizon-videos .horizon-videos-judul ul li{
@@ -387,7 +387,9 @@ article{
 
 .horizon-videos .container ul{
     display: flex;
-    justify-content: center;
+    justify-content: left;
+
+    overflow-x: scroll;
 }
 
 .horizon-videos .container ul li{
@@ -407,8 +409,8 @@ article{
 }
 
 .horizon-videos .container ul li .group{
-    min-width: 150px;
-    max-width: 281px;
+    min-width: 250px;
+    max-width: 381px;
 
     padding: 0 20px;
 }
@@ -592,16 +594,32 @@ article{
     }
 
 
+
+
+    .horizon-videos .horizon-videos-judul{
+        text-align: left;
+
+        margin: unset;
+        padding: unset;
+
+        margin-left: 20px;
+
+    }
+
+
     .horizon-videos .container ul{
         display: flex;
         justify-content: left;
         overflow-x: scroll;
     }
 
-    .horizon-videos .container ul .group{
+    .horizon-videos .container ul li .group{
         min-width: 250px;
         max-width: 381px;
+    }
 
+    .horizon-videos .contaienr ul li i{
+        height: 220px;
     }
 }
 
@@ -661,6 +679,11 @@ article{
         height: 200px;
     }
 
+
+    
+
+
+
     .horizon-videos .container ul{
         display: flex;
         justify-content: left;
@@ -670,7 +693,11 @@ article{
     .horizon-videos .container ul li .group{
         min-width: 250px;
         max-width: 381px;
-    }    
+    }
+
+    .horizon-videos .contaienr ul li i{
+        height: 220px;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -697,6 +724,11 @@ article{
 
     .hero-bottom .flex .hero-bottom-judul h2{
         font-size: 2.2rem;
+    }
+
+    .horizon-videos .container ul{
+        display: flex;
+        justify-content: center;
     }
 
 
