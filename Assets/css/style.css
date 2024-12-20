@@ -170,7 +170,7 @@ nav ul li a:last-child:hover{
     background-position: center;
 
 
-    display: none;
+    display: flex;
     justify-content: space-around;
 
     height: unset;
