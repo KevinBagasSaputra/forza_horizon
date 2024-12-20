@@ -390,7 +390,7 @@ article{
     color: white;
     background-color: #333333;
 
-    padding: 20px;
+    /* padding: 20px; */
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px;
 
@@ -403,18 +403,32 @@ article{
 }
 
 .horizon-videos .container ul li .group{
-    min-width: 250px;
-    max-width: 381px;
+    min-width: 150px;
+    max-width: 281px;
+
+    padding: 0 20px;
+}
+
+.horizon-videos .container ul li .group p:first-child{
+    color:rgba(255, 255, 255, 0.512);
+
+    font-size: 14px;
+    margin-top: 20px;
 }
 
 .horizon-videos .container ul li .group p{
     color:rgba(255, 255, 255, 0.418);
 }
 
+
 .horizon-videos .container ul li .group h3{
-    margin: 10px 0;
+    margin:  0 0 10px 0;
 }
 
+.horizon-videos .container ul li a{
+    color: white;
+    text-decoration: none;
+}
 
 .horizon-videos .container ul li:first-child i{
     background-position: center;
@@ -572,6 +586,19 @@ article{
     .hero-bottom .flex .tiga .play-tiga i{
         height: 200px;
     }
+
+
+    .horizon-videos .container ul{
+        display: flex;
+        justify-content: left;
+        overflow-x: scroll;
+    }
+
+    .horizon-videos .container ul .group{
+        min-width: 250px;
+        max-width: 381px;
+
+    }
 }
 
 @media (min-width: 577px) and (max-width: 1023px) {
@@ -629,6 +656,17 @@ article{
     .hero-bottom .flex .tiga .play-tiga i{
         height: 200px;
     }
+
+    .horizon-videos .container ul{
+        display: flex;
+        justify-content: left;
+        overflow-x: scroll;
+    }
+
+    .horizon-videos .container ul li .group{
+        min-width: 250px;
+        max-width: 381px;
+    }    
 }
 
 @media (min-width: 1024px) {
@@ -657,5 +695,11 @@ article{
         font-size: 2.2rem;
     }
 
+
+    .horizon-videos .container ul li .group{
+        min-width: 150px;
+        max-width: 381px;
+    }
+    
 }
 /* Responsive */ 
