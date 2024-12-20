@@ -416,25 +416,67 @@ article{
 }
 
 
-.horizon-videos .container ul li:first-child{
-}
-.horzion-videos .container ul li:first-child .group{
-    min-width: 250px;
-    max-width: 450px;
-}
+.horizon-videos .container ul li:first-child i{
+    background-position: center;
+    background-image: url('../img/main/horizon_videos/hv_1.webp');
+    background-size: cover;
 
+    min-width: 50%;
+    max-width: 100%;
 
-.horizon-videos .container ul li:nth-child(2){
-}
-.horizon-videos .container ul li:nth-child(2) .group{
+    height: 220px;
 
-}
-
-.horizon-videos .container ul li:nth-child(3){
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
-.horizon-videos .container ul li:last-child{
+.horizon-videos .container ul li:nth-child(2) i {
+    background-position: center;
+    background-image: url('../img/main/horizon_videos/hv_2.webp');
+    background-size: cover;
+
+    min-width: 50%;
+    max-width: 100%;
+
+    height: 220px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.horizon-videos .container ul li:nth-child(3) i{
+    background-position: center;
+    background-image: url('../img/main/horizon_videos/hv_3.webp');
+    background-size: cover;
+
+    min-width: 50%;
+    max-width: 100%;
+
+    height: 220px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.horizon-videos .container ul li:last-child i{
+    background-position: center;
+    background-image: url('../img/main/horizon_videos/hv_4.webp');
+    background-size: cover;
+
+    min-width: 50%;
+    max-width: 100%;
+
+    height: 220px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 /* Horizon Videos END */
