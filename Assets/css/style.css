@@ -426,6 +426,10 @@ article{
     color:rgba(255, 255, 255, 0.418);
 }
 
+.horizon-videos .container ul li .group p:last-child{
+    margin-bottom: 30px;
+}
+
 
 .horizon-videos .container ul li .group h3{
     margin:  0 0 10px 0;
