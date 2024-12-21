@@ -503,6 +503,31 @@ article{
     align-items: center;
 
 }
+
+
+.horzion-videos .container .more-videos{
+}
+
+
+.horizon-videos .container .more-videos a{
+    color: black;
+    text-decoration: none;
+
+    width: 97.5%;
+    display: flex;
+    justify-content: end;
+    
+    align-items: center;
+
+    margin-right: 45px;
+    
+
+}
+
+.horizon-videos .container .more-videos a i{
+    color: white;
+    font-size: 10px;
+}
 /* Horizon Videos END */
 
 
@@ -721,7 +746,7 @@ article{
         font-size: 4.5rem;
     }
     
-
+ 
     .hero-bottom .flex{
         display: flex;
     }
@@ -729,6 +754,12 @@ article{
     .hero-bottom .flex .hero-bottom-judul h2{
         font-size: 2.2rem;
     }
+
+
+    .horizon-videos .container{
+        margin-top: 20px;
+    }
+
 
     .horizon-videos .container ul{
         display: flex;
