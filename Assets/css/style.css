@@ -520,13 +520,16 @@ article{
     align-items: center;
 
     margin-right: 45px;
-    
-
 }
+
 
 .horizon-videos .container .more-videos a i{
     color: white;
     font-size: 10px;
+}
+
+.horizon-videos .container .more-videos a i:first-child{
+    margin-left: 10px;
 }
 /* Horizon Videos END */
 
