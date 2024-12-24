@@ -540,7 +540,46 @@ article{
 
 
 
+/* Horizon News START */
+.horizon-news{
+    width: 100%;
+}
 
+.horizon-news .container{
+    margin: 0 0 0 50px;
+
+    margin-top: 100px;
+}
+
+.horizon-news .container .horizon-news-judul{
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 50px;
+}
+
+.horizon-news .container .horizon-news-judul h2{
+    font-size: 2.2rem;
+    letter-spacing: 0.6px;
+}
+
+.horizon-news .container .horizon-news-judul ul li{
+    list-style-type: none;
+    margin: 0 20px 0 0;
+}
+
+.horizon-news .container .horizon-news-judul ul li a{
+    color: rgb(68, 68, 68);
+    text-decoration: none;
+    margin: 0 35px 0 0;
+}
+
+.horizon-news .container .horizon-news-judul ul li a:first-child{
+    text-underline-offset: 7px;
+    text-decoration: underline  #E43E83;
+    text-decoration-thickness: 2px;
+}
+/* Horizon News END */
 
 
 
