@@ -555,7 +555,7 @@ article{
     display: flex;
     justify-content: space-between;
 
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .horizon-news .container .horizon-news-judul h2{
@@ -578,6 +578,26 @@ article{
     text-underline-offset: 7px;
     text-decoration: underline  #E43E83;
     text-decoration-thickness: 2px;
+}
+
+
+.horizon-news .container .head{
+    display: flex;
+
+    flex-wrap: wrap;
+}
+
+.horizon-news .container .head img{
+    min-width: 50%;
+    max-width: 100%;
+}
+
+
+.horizon-news .container .head .information{
+    min-width: 300px;
+    max-width: 550px;
+
+    margin-left: 50px;
 }
 /* Horizon News END */
 
