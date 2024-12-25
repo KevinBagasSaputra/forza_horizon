@@ -599,6 +599,27 @@ article{
 
     margin-left: 50px;
 }
+
+.horizon-news .container .head .information h3{
+    color:#E43E83;
+    font-size: 2.2rem;
+}
+
+.horizon-news .container .head .information p:first-child{
+    font-size: 14px;
+}
+
+.horizon-news .container .head .information P:nth-child(3){
+    color: rgb(89, 89, 89);
+    letter-spacing: 0.4px;
+}
+
+.horizon-news .container .head .information a{
+    color: black;
+    text-decoration: none;
+
+    font-size: 1.2rem;
+}
 /* Horizon News END */
 
 
