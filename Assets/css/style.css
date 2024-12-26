@@ -612,6 +612,8 @@ article{
 .horizon-news .container .head .information P:nth-child(3){
     color: rgb(89, 89, 89);
     letter-spacing: 0.4px;
+
+    margin-bottom: 20px;
 }
 
 .horizon-news .container .head .information a{
@@ -619,6 +621,19 @@ article{
     text-decoration: none;
 
     font-size: 1.2rem;
+}
+
+
+.horizon-news .container .bottom{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.horizon-news .container .bottom .left{
+}
+
+.horizon-news .container .bottom .right{
 }
 /* Horizon News END */
 
@@ -732,7 +747,7 @@ article{
         max-width: 381px;
     }
 
-    .horizon-videos .contaienr ul li i{
+    .horizon-videos .container ul li i{
         height: 220px;
     }
 }
@@ -809,7 +824,7 @@ article{
         max-width: 381px;
     }
 
-    .horizon-videos .contaienr ul li i{
+    .horizon-videos .container ul li i{
         height: 220px;
     }
 }
